@@ -1,22 +1,22 @@
-#!/bin/bash
 #include <stdio.h>
 
 /**
-*You should produce the exact same output as in the example
-*Warnings are allowed
-*Your program should return 0
-*/
+ * produce the exact same output as in the example
+ * warnings are allowed
+ * program should return 0
+ */
 int main (void)
 {
-        char c;
-        int i;
-        long li;
-        long long lli;
+        int a;
+        long int b;
+        long long int c;
+        char d;
         float f;
 
-        printf("size of a char: %ld bytes (s)\n", sizeof(c));
-        printf("size of a int: %ld byte(s)\n", sizeof(i));
-        printf("size of a long: %ld byte(s)\n", sizeof(li));
-        printf("size of a long long: %ld byte(s)\n", sizeof(lli));
-        printf("size of a float: %ld byte(s)\n", sizeof(f));
+        printf("Size of a char: %lu byte(s)\n", (unsigned long)sizeof(d));
+        printf("Size of an int: %lu byte(s)\n", (unsigned long)sizeof(a));
+        printf("Size of a long int: %lu byte(s)\n", (unsigned long)sizeof(b));
+        printf("Size of a long long int: %lu byte(s)\n", (unsigned long)sizeof(c));
+        printf("Size of a float: %lu byte (s)\n", (unsigned long)sizeof(f));
         return (0);
+}
