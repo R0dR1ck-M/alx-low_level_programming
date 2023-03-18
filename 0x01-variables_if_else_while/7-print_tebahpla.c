@@ -1,16 +1,17 @@
 #include <stdio.h>
 /**
-* main -print if the number is positive, zero or negative
+* main - print lowercase alphabet in reverse
 * Description: using the main function
-* this program prints 'Programming is positive, zero or negative
+* this program prints 'z, y, x...c, b, a'
 * Return: 0
 */
 int main(void);
-char ch;
 {
+	char ch;
 	for (ch = 'z'; ch >= 'a'; c--)
 	{
 		putchar(ch);
+		putchar(',')
 	}
 	putchar('\n\);
 	return (0);
