@@ -5,7 +5,7 @@
 * in ascending order
 * no repetition of different combinations of same digit
 * Description - This program prints '012, 013, 014...999'
-* Return - Always 0 (Success)
+* Return - 0 (Success)
 */
 int main(void)
 {
