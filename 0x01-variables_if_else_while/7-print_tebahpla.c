@@ -1,4 +1,3 @@
-#include <holberton.h>
 #include <stdio.h>
 /**
 * main - print lowercase alphabet in reverse,
