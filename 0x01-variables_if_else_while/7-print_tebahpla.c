@@ -2,8 +2,6 @@
 /**
 * main - print lowercase alphabet in reverse,
 * followed by a new line
-* Description: using the main function
-* this program prints 'z, y, x...c, b, a'
 * Return: Always 0 (Success)
 */
 int main(void);
@@ -14,6 +12,6 @@ int main(void);
 	{
 		putchar(ch);
 	}
-	putchar('\n\);
+	putchar("\n\");
 	return (0);
 }
