@@ -3,7 +3,8 @@
 /**
 * main - print all possible different combinations of three digits,
 * in ascending order
-* no repetition of different combinations of same digits
+* no repetition of different combinations of same digit
+* Description - program print '012, 013, 014...999'
 * Return - Always 0 (Success)
 */
 int main(void)
@@ -30,6 +31,6 @@ int main(void)
 			}
 		}
 	}
-	putchar('\n');
+	putchar ('\n');
 	return(0);
 }
