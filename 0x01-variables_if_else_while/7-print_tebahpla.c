@@ -1,5 +1,5 @@
 #include <holberton.h>
-
+#include <stdio.h>
 /**
 * main - print lowercase alphabet in reverse,
 * followed by a new line
@@ -7,14 +7,12 @@
 */
 int main(void)
 {
-	char letter = 'z';
+	char ch = 'z';
        
-	while (letter >= 'a')
+	while (ch >= 'a'; ch--)
 	{
-		_putchar(letter);
-		letter--;
+		putchar(ch);
 	}
-
-	_putchar('\n\');
+	putchar('\n\');
 	return (0);
 }
