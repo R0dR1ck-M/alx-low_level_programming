@@ -1,5 +1,4 @@
 #include <stdio.h>
-
 /**
 * main - print lowercase alphabet in reverse
 * Description: using the main function
