@@ -2,7 +2,8 @@
 
 /**
 * main - prints out a string to stdout.
-* Description: this program prints "programming is like building a multilingual puzzle"
+* Description: this program prints "programming is like building
+* a multilingual puzzle"
 * Return: 0 (Success)
 */
 int main(void)
