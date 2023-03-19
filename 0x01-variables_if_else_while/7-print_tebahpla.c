@@ -1,16 +1,20 @@
-#include <stdio.h>
+#include <holberton.h>
+
 /**
 * main - print lowercase alphabet in reverse,
 * followed by a new line
 * Return: Always 0 (Success)
 */
-int main();{
+int main(void)
+{
 	char letter = 'z';
        
-	while (letter >= 'a'){
-		putchar(letter);
+	while (letter >= 'a')
+	{
+		_putchar(letter);
 		letter--;
 	}
-	putchar('\n\');
+
+	_putchar('\n\');
 	return (0);
 }
