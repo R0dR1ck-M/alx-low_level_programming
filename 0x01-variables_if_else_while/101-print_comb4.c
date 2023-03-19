@@ -1,10 +1,12 @@
 #include <stdio.h>
 
 /**
-* main - print all possible different combinations of three digits
+* main - print all possible different combinations of three digits,
+* in ascending order
+* no repetition of different combinations of same digits
 * Return - Always 0 (Success)
 */
-int main(void)
+int main (void)
 {
 	int n, m, l;
 
