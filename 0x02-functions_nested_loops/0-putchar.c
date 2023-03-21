@@ -7,7 +7,7 @@
 
 int main()
 {
-	_putchar('_);
+	_putchar('_');
 	_putchar('p');
 	_putchar('u');
 	_putchar('t');
@@ -15,7 +15,7 @@ int main()
 	_putchar('h');
 	_putchar('a');
 	_putchar('r');
-	_putchar('\n')
+	_putchar('\n');
 
 	return(0);
 }
