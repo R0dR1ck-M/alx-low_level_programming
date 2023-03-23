@@ -15,7 +15,7 @@ int main(void)
 	while (h <= 100)
 	{
 		if (h % 3 == 0 && h % 5 == 0)
-			printf('FizzBuzz ");
+			printf("FizzBuzz ");
 		else if (h % 5 == 0)
 		{
 			if (h == 100)
@@ -27,7 +27,7 @@ int main(void)
 				printf("Buzz ");
 		}
 		else if (h % 3 == 0)
-			printf('Fizz ");
+			printf("Fizz ");
 		else
 			printf("%d", h);
 	h++;
