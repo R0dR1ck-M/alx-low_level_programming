@@ -18,7 +18,7 @@ void puts_half(char *str)
 }
 
 /**
- * strlen - returns the length of a string
+ * _strlen - returns the length of a string
  * @s: string
  * Description: length of a string
  *
