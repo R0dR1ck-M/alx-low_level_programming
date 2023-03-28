@@ -1,5 +1,5 @@
-#ifndef MAIN_H INCLUDED
-#define MAIN_H INCLUDED
+#ifndef MAIN_H_INCLUDED
+#define MAIN_H_INCLUDED
 
 /**
 * void prototypes()
@@ -19,4 +19,4 @@ char *_strcpy(char *dest, char *src);
 int _atoi(char *str);
 
 
-#endif MAIN_H INCLUDED
+#endif MAIN_H_INCLUDED
