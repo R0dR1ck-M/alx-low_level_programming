@@ -8,7 +8,7 @@
  * Return: destination
  */
 
-const char ((char) *dest, (char) *src)
+int char (char *dest, char *src)
 {
 	int inc = 0;
 
