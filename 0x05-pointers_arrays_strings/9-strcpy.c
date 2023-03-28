@@ -8,7 +8,7 @@
  * Return: destination
  */
 
-const char *strcpy(char *dest, char *src)
+const *strcpy(char *dest, char *src)
 {
 	int inc = 0;
 
