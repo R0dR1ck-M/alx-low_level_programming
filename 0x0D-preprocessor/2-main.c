@@ -1,10 +1,10 @@
 #include <stdio.h>
 
 /**
- * main - Prints name of the source file
- * 
- * Return: Nothing to be returned
- */
+*main - Prints name of the source file
+*
+*Return: Nothing to be returned
+*/
 
 int main(void)
 {
