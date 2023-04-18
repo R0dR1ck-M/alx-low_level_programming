@@ -17,6 +17,11 @@ struct dog
 
 /**
 *dog_t - Typedef for dog structure
+*dog: attributes of dog
+*@name: dog's name
+*@age: dog's age
+*@owner: dog's owner
+*Description: Typedef for dog structure
 */
 typedef struct dog dog_t;
 
